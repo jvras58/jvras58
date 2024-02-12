@@ -1,0 +1,18 @@
+name: Generate Datas
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '*/30 * * * *'  # execute a cada 30 minutos
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    name: Jobs
+    steps:
+      - uses: actions/checkout@v2
+      - uses: Platane/snk@master
+        with:
+          github_user_name: jvras58
+          github_repo_name: jvras58
+          svg_out_path: dist/github-contribution-grid-snake.svg
