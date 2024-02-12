@@ -5,7 +5,7 @@
 <div align="center">
   <a href="https://github.com/jvras58">
   <img height="180em" width="42%" src="https://github-readme-stats.vercel.app/api?username=jvras58&show_icons=true&theme=dark&include_all_commits=true&count_private=true"/>
-  <img height="180em" width="35%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=jvras58&layout=compact&langs_count=7&theme=dark"/>
+  <img height="180em" width="35%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=jvras58&layout=compact&langs_count=7&theme=dark&exclude_repo=escolher_repo_para_ignorar,REPO2&no_forks=true"/>
 </div>
     
 <div style="display: inline_block"><br>
@@ -24,6 +24,6 @@
   <a href="https://www.instagram.com/i__m__jv/" target="_blank"><img src="https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white" target="_blank"></a>
   <a href = "mailto:jvras@cin.ufpe.br"><img src="https://img.shields.io/badge/-Gmail-%23333?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
    
-  <!-- ![Snake animation](https://github.com/Jovanney/Jovanney/blob/output/github-contribution-grid-snake.svg) -->
+  ![Snake animation](https://github.com/jvras58/jvras58/blob/output/github-contribution-grid-snake.svg)
  
 </div>
