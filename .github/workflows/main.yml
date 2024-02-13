@@ -3,7 +3,7 @@ name: Generate Datas
 on:
   workflow_dispatch:
   schedule:
-    - cron: '*/30 * * * *'  # execute a cada 30 minutos
+    - cron: '* * * * *'  # execute a cada 30 minutos
 
 jobs:
   build:
