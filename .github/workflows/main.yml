@@ -3,7 +3,7 @@ name: Generate Datas
 on:
   workflow_dispatch:
   schedule:
-    - cron: '*/30 * * * *'  # execute a cada 30 minutos
+    - cron: '*/1 * * * *'  # execute a cada 30 minutos
 
 jobs:
   build:
@@ -16,9 +16,10 @@ jobs:
         with:
           github_user_name: jvras58
           github_repo_name: jvras58
+          svg_out_path: dist/github-contribution-grid-snake.svg
       - uses: crazy-max/ghaction-github-pages@v2
         with:
           target_branch: output
-          build_dir: dist/github-user-contribution.svg
+          build_dir: dist
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
