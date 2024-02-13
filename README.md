@@ -42,4 +42,4 @@ Sou um entusiasta da tecnologia e adoro aprender coisas novas. Nos meus tempos l
 
 ## 🐍 Contribuições no GitHub
 
-![Snake animation](https://github.com/jvras58/jvras58/blob/output/github-contribution-grid-snake.svg)
+![Snake animation](https://raw.githubusercontent.com/jvras58/jvras58/output/github-contribution-grid-snake-dark.svg)
