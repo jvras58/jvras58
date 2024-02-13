@@ -16,9 +16,10 @@ jobs:
         with:
           github_user_name: jvras58
           github_repo_name: jvras58
+          svg_out_path: dist/github-contribution-grid-snake.svg
       - uses: crazy-max/ghaction-github-pages@v2
         with:
           target_branch: output
-          build_dir: dist/github-user-contribution.svg
+          build_dir: dist
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
