@@ -1,24 +1,35 @@
-<img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=0078C8&height=120&section=header"/>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/jvras58/jvras58/output/imagens/poo.gif" alt="animation">
+  <br>
+  <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp.com/?color=0078C8&size=35&center=true&vCenter=true&width=1000&lines=👋+Olá!+Eu+sou+Jonathas+Vinicius%3B;Sou+estudante+de+Computação+no+CIN-UFPE%3B;Seja+bem-vindo+ao+meu+mundo+tech!+💻🚀"></a>
+</p>
 
-[![Typing SVG](https://readme-typing-svg.herokuapp.com/?color=0078C8&size=35&center=true&vCenter=true&width=1000&lines=👋+Olá!+Eu+sou+Jonathas+Vinicius%3B;Tenho+25+anos+de+idade%3B;Sou+estudante+de+Computação+no+CIN-UFPE%3B;Sou+dev+back-end+Python.;Seja+bem-vindo+ao+meu+mundo+tech!+💻🚀)](https://git.io/typing-svg)
+### Sou Desenvolvedor de Software, moro em 🇧🇷 e sou bolsista de inovação na ufpe [STI-LABS](https://github.com/STI-Labs/).
+
+### Languages & Tools 🛠
+
+![Python](https://img.shields.io/badge/-Python-05122A?style=flat&logo=python) ![Markdown](https://img.shields.io/badge/-Markdown-05122A?style=flat&logo=markdown)&nbsp;
+![React](https://img.shields.io/badge/-React-05122A?style=flat&logo=react) ![Next.js](https://img.shields.io/badge/-Next.js-05122A?style=flat&logo=nextdotjs&logoColor=white)
+
+![Docker](https://img.shields.io/badge/-Docker-05122A?style=flat&logo=docker) ![Git](https://img.shields.io/badge/-Git-05122A?style=flat&logo=git) ![GitHub](https://img.shields.io/badge/-GitHub-05122A?style=flat&logo=github) ![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions%20-05122A?style=flat&logo=github-actions&logoColor=white) ![MySQL](https://img.shields.io/badge/-MySQL-05122A?style=flat&logo=mysql&logoColor=white) ![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-05122A?style=flat&logo=postgresql)&nbsp;
+
+![Visual Studio Code](https://img.shields.io/badge/-Visual%20Studio%20Code-05122A?style=flat&logo=visual-studio-code&logoColor=007ACC) ![Linux](https://img.shields.io/badge/-Linux-05122A?style=flat&logo=linux&logoColor=white) ![Windows](https://img.shields.io/badge/-Windows-05122A?style=flat&logo=windows)
 
 ## 📊 Estatísticas do GitHub
 
-<div align="center">
-  <a href="https://github.com/jvras58">
-  <img height="180em" width="42%" src="https://github-readme-stats.vercel.app/api?username=jvras58&show_icons=true&theme=dark&include_all_commits=true&count_private=true"/>
-  <img height="180em" width="35%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=jvras58&layout=compact&langs_count=7&theme=dark&exclude_repo=datastudio,REPO2&no_forks=true"/>
-</div>
+<p align="left">
+<a href="https://github.com/jvras58">
+  <img src="https://github.com/jvras58/jvras58/blob/main/github-metrics.svg"/>
+</a>
+</p>
+  
+<p align="left">
+  <img height="180em" src="https://github-readme-streak-stats.herokuapp.com/?user=jvras58" />
+<!--   <img height="180em" src="https://raw.githubusercontent.com/jvras58/jvras58/main/profile-summary-card-output/github/3-stats.svg" /> -->
+</p>  
 
-## 💻 Tecnologias que eu uso
+<img width="100%" src="profile-summary-card-output/github/0-profile-details.svg" />
 
-<div style="display: inline_block"><br>
-  <img align="center" alt="jvras-Js" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
-  <img align="center" alt="jvras-React" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg">
-  <img align="center" alt="jvras-HTML" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
-  <img align="center" alt="jvras-CSS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
-  <img align="center" alt="jvras-Python" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg">
-</div>
 
 ## 📫 Entre em contato comigo
 
@@ -29,17 +40,14 @@
 
 ## 📚 O que estou aprendendo
 
-Atualmente estou aprofundando meus conhecimentos em React/next.js
+Atualmente estou aprofundando meus conhecimentos em front-end com React/next.js
 
 ## 🎯 Sobre mim
 
 Sou um entusiasta da tecnologia e adoro aprender coisas novas. Nos meus tempos livres, gosto de jogar videogames e passar tempo no youtube ou assistindo algum anime.
 
-## 🎮 Projetos:
-
-- [Bot Discord de gerenciamento de checkpoints](https://github.com/jvras58/bot-discord.git)
-- [Bot Discord banco](https://github.com/jvras58/projeto2)
-
 ## 🐍 Contribuições no GitHub
 
 ![Snake animation](https://raw.githubusercontent.com/jvras58/jvras58/output/github-contribution-grid-snake-dark.svg)
+
+
