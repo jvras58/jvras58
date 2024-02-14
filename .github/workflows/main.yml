@@ -58,7 +58,7 @@ jobs:
         uses: lowlighter/metrics@master
         with:
           filename: metrics.plugin.achievements.svg
-          token: ${{ secrets.ACCESS_TOKEN }}
+          token: ${{ secrets.ACCESS_TOKEN }} # add secrets.ACCESS_TOKEN to your repository secrets
           base: ""
           plugin_achievements: yes
           plugin_achievements_threshold: B       # Display achievements with rank B or higher
@@ -72,4 +72,4 @@ jobs:
       - name: Github metrics
         uses: lowlighter/metrics@latest
         with:
-          token: ${{ secrets.ACCESS_TOKEN }}
+          token: ${{ secrets.ACCESS_TOKEN }}  # add secrets.ACCESS_TOKEN to your repository secrets
