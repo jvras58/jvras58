@@ -1,55 +1,55 @@
-# GitHub Action for generating a contribution graph with a snake eating your contributions.
+# GitHub Action para gerar um gráfico de contribuição com uma snake comendo suas contribuições.
 
 name: Generate Snake
 
-# Controls when the action will run. This action runs every 6 hours.
+# Controla quando a ação será executada. Esta ação é executada a cada 6 horas.
 
 on:
   schedule:
-      # every 6 hours
+      # a cada 6 horas
     - cron: "0 */6 * * *"
 
-# This command allows us to run the Action automatically from the Actions tab.
+# Este comando nos permite executar a ação automaticamente na guia Actions.
   workflow_dispatch:
 
-# The sequence of runs in this workflow:
+# Sequência de execuções:
 jobs:
-  # This workflow contains a single job called "build"
+  # Este fluxo de trabalho contém um único trabalho chamado "build"
   build:
-    # The type of runner that the job will run on
+    # O tipo de executor em que o trabalho será executado
     runs-on: ubuntu-latest
 
-    # Steps represent a sequence of tasks that will be executed as part of the job
+    # representam uma sequência de tarefas que serão executadas como parte do job "trabalho"
     steps:
 
-    # Checks repo under $GITHUB_WORKSHOP, so your job can access it
+    # Verifica o repositório em $GITHUB_WORKSHOP, para que seu job possa acessá-lo
       - uses: actions/checkout@v3
 
-    # Generates the snake  
+    # Gera a cobra 
       - uses: Platane/snk@v3
         id: snake-gif
         with:
-          github_user_name: ${{ github.repository_owner }}
-          # these next 2 lines generate the files on a branch called "output". This keeps the main branch from cluttering up.
+          github_user_name: ${{ github.repository_owner }} # Fornecido pelo proprio github Não precisa fazer nada!
+          # as próximas 2 linhas geram os arquivos em uma ramificação chamada "output". Isso evita que o ramo principal fique confuso.
           outputs: |
             dist/github-contribution-grid-snake.gif
             dist/github-contribution-grid-snake.svg
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-     # show the status of the build. Makes it easier for debugging (if there's any issues).
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # Fornecido pelo proprio github Não precisa fazer nada!
+     # mostrar o status da construção. Facilita a depuração (se houver algum problema).
       - name: Show build status
         run: git status
 
       - name: Push new files to output branch 
         uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
-          # the output branch we mentioned above
+          # o ramo de output que mencionamos acima
           target_branch: output
           build_dir: dist
           commit_message: Update snake animations
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # Fornecido pelo proprio github Não precisa fazer nada!
 
   metrics-achievements:
     runs-on: ubuntu-latest
@@ -58,13 +58,13 @@ jobs:
         uses: lowlighter/metrics@master
         with:
           filename: metrics.plugin.achievements.svg
-          token: ${{ secrets.ACCESS_TOKEN }} # add secrets.ACCESS_TOKEN to your repository secrets
+          token: ${{ secrets.ACCESS_TOKEN }} # adicione secrets.ACCESS_TOKEN aos segredos do seu repositório ( [ Gere o token: https://github.com/settings/tokens] com permissões de visualização de metricas / [ Adicione ao segredos - https://github.com/@seuUser/@seuUser/settings/secrets/actions ] )
           base: ""
           plugin_achievements: yes
-          plugin_achievements_threshold: B       # Display achievements with rank B or higher
-          plugin_achievements_secrets: yes       # Display unlocked secrets achievements
-          plugin_achievements_ignored: octonaut  # Hide octonaut achievement
-          plugin_achievements_limit: 0           # Display all unlocked achievement matching threshold and secrets params
+          plugin_achievements_threshold: B       # Exibi conquistas com classificação B ou superior
+          plugin_achievements_secrets: yes       # Exibi conquistas de segredos desbloqueados
+          plugin_achievements_ignored: octonaut  # Oculta conquista do octonauta
+          plugin_achievements_limit: 0           # Exibi todos os limites de correspondência de conquistas desbloqueadas e parâmetros de segredos
 
   metrics-github:
     runs-on: ubuntu-latest
@@ -72,4 +72,4 @@ jobs:
       - name: Github metrics
         uses: lowlighter/metrics@latest
         with:
-          token: ${{ secrets.ACCESS_TOKEN }}  # add secrets.ACCESS_TOKEN to your repository secrets
+          token: ${{ secrets.ACCESS_TOKEN }}  # Já explicado lá em cima é o mesmo token não precisa fazer outro....

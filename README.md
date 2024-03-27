@@ -7,8 +7,8 @@
 ### Sou Desenvolvedor de Software, moro em 🇧🇷 e sou bolsista de inovação na ufpe [STI-LABS](https://github.com/STI-Labs/).
 
 ### Languages & Tools 🛠
-
-![Python](https://img.shields.io/badge/-Python-05122A?style=flat&logo=python) ![Markdown](https://img.shields.io/badge/-Markdown-05122A?style=flat&logo=markdown)&nbsp;
+<!--&nbsp; força uma quebra de linha  -->
+![Python](https://img.shields.io/badge/-Python-05122A?style=flat&logo=python) ![Markdown](https://img.shields.io/badge/-Markdown-05122A?style=flat&logo=markdown)&nbsp; 
 ![React](https://img.shields.io/badge/-React-05122A?style=flat&logo=react) ![Next.js](https://img.shields.io/badge/-Next.js-05122A?style=flat&logo=nextdotjs&logoColor=white)
 
 ![Docker](https://img.shields.io/badge/-Docker-05122A?style=flat&logo=docker) ![Git](https://img.shields.io/badge/-Git-05122A?style=flat&logo=git) ![GitHub](https://img.shields.io/badge/-GitHub-05122A?style=flat&logo=github) ![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions%20-05122A?style=flat&logo=github-actions&logoColor=white) ![MySQL](https://img.shields.io/badge/-MySQL-05122A?style=flat&logo=mysql&logoColor=white) ![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-05122A?style=flat&logo=postgresql)&nbsp;
@@ -25,10 +25,8 @@
   
 <p align="left">
   <img height="180em" src="https://github-readme-streak-stats.herokuapp.com/?user=jvras58" />
-<!--   <img height="180em" src="https://raw.githubusercontent.com/jvras58/jvras58/main/profile-summary-card-output/github/3-stats.svg" /> -->
 </p>  
 
-<img width="100%" src="profile-summary-card-output/github/0-profile-details.svg" />
 
 
 ## 📫 Entre em contato comigo
