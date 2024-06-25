@@ -1,5 +1,5 @@
 <p align="center">
-
+<img src="https://raw.githubusercontent.com/jvras58/jvras58/assets/kung-fu-panda-dragon-power-dragon.gif" alt="!animation">
   <br>
   <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp.com/?color=0078C8&size=35&center=true&vCenter=true&width=1000&lines=👋+Olá!+Eu+sou+Jonathas+Vinicius%3B;Sou+estudante+de+Computação+no+CIN-UFPE%3B;Seja+bem-vindo+ao+meu+mundo+tech!+💻🚀"></a>
 </p>
