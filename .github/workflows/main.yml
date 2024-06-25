@@ -1,16 +1,19 @@
 # GitHub Action para gerar um gráfico de contribuição com uma snake comendo suas contribuições.
-
 name: Generate Snake
 
-# Controla quando a ação será executada. Esta ação é executada a cada 6 horas.
-
+# Controla quando a ação será executada. Esta ação é executada a cada 12 horas e também em cada push na branch main.
 on:
   schedule:
-      # a cada 6 horas
-    - cron: "0 */6 * * *"
+      # a cada 12 horas
+    - cron: "0 */12 * * *"
 
-# Este comando nos permite executar a ação automaticamente na guia Actions.
+  # Este comando nos permite executar a ação automaticamente na guia Actions.
   workflow_dispatch:
+  
+  # Executa também a cada push na branch main
+  push:
+    branches:
+    - main
 
 # Sequência de execuções:
 jobs:
@@ -21,23 +24,22 @@ jobs:
 
     # representam uma sequência de tarefas que serão executadas como parte do job "trabalho"
     steps:
+      - name: Clone repo
+        uses: actions/checkout@v3
 
-    # Verifica o repositório em $GITHUB_WORKSHOP, para que seu job possa acessá-lo
-      - uses: actions/checkout@v3
-
-    # Gera a cobra 
+      # Gera a cobra 
       - uses: Platane/snk@v3
         id: snake-gif
         with:
           github_user_name: ${{ github.repository_owner }} # Fornecido pelo proprio github Não precisa fazer nada!
-          # as próximas 2 linhas geram os arquivos em uma ramificação chamada "output". Isso evita que o ramo principal fique confuso.
           outputs: |
-            dist/github-contribution-grid-snake.gif
             dist/github-contribution-grid-snake.svg
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+            dist/github-contribution-grid-snake.gif?color_snake=orange&color_dots=#bfd6f6,#8dbdff,#64a1f4,#4b91f1,#3c7dd9
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # Fornecido pelo proprio github Não precisa fazer nada!
-     # mostrar o status da construção. Facilita a depuração (se houver algum problema).
+      
+      # mostrar o status da construção. Facilita a depuração (se houver algum problema).
       - name: Show build status
         run: git status
 
