@@ -4,7 +4,7 @@
   <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp.com/?color=0078C8&size=35&center=true&vCenter=true&width=1000&lines=👋+Olá!+Eu+sou+Jonathas+Vinicius%3B;Sou+estudante+de+Computação+no+CIN-UFPE%3B;Seja+bem-vindo+ao+meu+mundo+tech!+💻🚀"></a>
 </p>
 
-### Sou Desenvolvedor de Software, moro em 🇧🇷 e sou bolsista de inovação na UFPE [STI-LABS](https://github.com/STI-Labs/).
+### Sou Desenvolvedor de Software, moro em 🇧🇷 e dev na Viitra inovação [Viitra](https://viitra.com/).
 
 ## 📊 Estatísticas do GitHub
 
