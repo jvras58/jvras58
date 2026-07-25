@@ -12,7 +12,7 @@
 
 ## 🎯 Sobre mim
 
-Sou graduando no **CIn-UFPE** e entusiasta de sistemas inteligentes. Atualmente, meu foco está na interseção entre **Desenvolvimento Web Moderno** e **Orquestração de Agentes de IA**. Tenho experiência na criação de APIs de alta performance, automação de navegadores e integração de LLMs locais. 
+Sou graduado pelo **CIn-UFPE** e entusiasta de sistemas inteligentes. Atualmente, meu foco está na interseção entre **Desenvolvimento Web Moderno** e **Orquestração de Agentes de IA**. Tenho experiência na criação de APIs de alta performance, automação de navegadores e integração de LLMs locais. 
 
 Quando não estou codando, provavelmente estou assistindo animes, explorando o YouTube ou pensando no meu próximo desafio.
 
